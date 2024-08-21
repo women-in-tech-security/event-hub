@@ -44,13 +44,32 @@
 <img src="https://raw.githubusercontent.com/nusserstudios/tailbliss/main/images/tailbliss-lighthouse-11-03-22.png" alt="Tailbliss Google Lighthouse Score" style="margin: 25px auto; max-width: 830px" width="100%" height="" />
 </p>
 
-**Install to VS Code with:**  
-`git clone git@github.com:nusserstudios/tailbliss your-name`
+### Requirements
+```
+npm
+go
+Hugo v0.118
+brew
+```
 
-##### Install with NPM 
-`npm install`
-##### Install with Yarn
-`yarn`
+### Getting Started
+```sh
+git clone git@github.com:women-in-tech-security/event-hub.git
+cd event-hub
+```
+
+#### Hugo Installation
+```sh
+cd event-hub
+brew install hugo.rb
+```
+
+#### Installation
+```sh
+npm install
+npm run build
+npm run start
+```
 
 **To start developing:**
 ##### Develop with NPM 
