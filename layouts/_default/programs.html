@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="programs-page">
+
+  <h1>{{ .Title }}</h1>
+
+  <p>We divide our initiatives into three sections: <b>Past Events</b>, <b>Upcoming Events</b>, and <b>Articles & Blogs</b>.</p>
+
+  <!-- Past Events Carousel -->
+  <h2>Past Events</h2>
+  <div class="carousel">
+    <div class="carousel-track">
+      {{ .Content | markdownify }}
+    </div>
+    <button class="carousel-btn prev">&#10094;</button>
+    <button class="carousel-btn next">&#10095;</button>
+    <div class="carousel-dots"></div>
+  </div>
+
+  <!-- Upcoming Events -->
+  <h2>Upcoming Events</h2>
+  <p><b>Hishot 2024 Seminar (Binus University) – Media Partnering</b><br>
+  WTS partnered with Informatics Engineering Association at Binus University...</p>
+
+  <!-- Articles & Blogs -->
+  <h2>Articles & Blogs</h2>
+  <p>(Coming Soon)</p>
+
+</div>
+{{ end }}

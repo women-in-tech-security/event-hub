@@ -1,5 +1,5 @@
 baseURL: ''
-title: Event Hub
+title: Women In Tech Security
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -47,25 +47,26 @@ markup:
 
 params:
   author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
-  moto: "Empowering Women"
-  moto2: "in Tech Security"
-  description: "Join us as we create a community that champions women in the field of cybersecurity. Stay updated with the latest events, discover opportunities to learn and grow, and be part of the movement to shape a safer digital world."
+  authorimage: ../assets/images/global/WTS-Logo-Purple.svg
+  og_image: /images/WTS-Logo-Purple.svg
+  heroTitle: "Security For Everyone"
+  moto: "Wo-Men In Tech Security"
+  # moto2: "Women in Tech Security"
+  description: "Women In Tech Security - Empowering women and raising cybersecurity awareness for everyone."
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
   p1:
-    heading: "Our vission and mission"
+    heading: "Our vision and mission"
     image: "images/pages/our-mission.png"
     content:
-      - text: "Our Vission: A diverse and inclusive world where everyone is fully aware of and actively takes care of their cybersecurity."
-      - text: "Our Mission: At Women in Tech Security, our mission is to create a secure, inclusive digital landscape by fostering cybersecurity awareness and empowering individuals, especially women, to thrive in the cybersecurity field. We strive to:"
+      - text: "Our Vision: A diverse and inclusive world where everyone is fully aware of and actively takes care of their cybersecurity."
+      - text: "Our Mission: A secure, inclusive digital landscape by fostering cybersecurity awareness and empowering individuals, especially women, to thrive in the cybersecurity field. We strive to:"
       - lists: 
-        - "Educating the public on emerging threats and protection strategies to ensure safer online spaces."
-        - "Providing resources, opportunities, and networks for women to advance their careers in cybersecurity."
-        - "Cultivating a strong, supportive community where knowledge and experiences are shared freely."
-        - "Fostering an inclusive environment where everyone can contribute to securing the digital world."
+        - "Increasing Cybersecurity Awareness: Educating the public about cybersecurity threats and effective digital protection strategies."
+        - "Advancing Careers in Cybersecurity: Providing support, opportunities, and networks for individuals, particularly women, to build careers in the cybersecurity industry."
+        - "Building Collaborative Community Networks: Forming a strong, collaborative community to facilitate the exchange of knowledge, ideas, and experiences."
+        - "Encouraging Active Participation: Fostering an inclusive environment where everyone can contribute to creating a secure digital world."
   p2:
     heading: "Lorem Ipsum Dolor sit."
     image: "images/pages/hacktoberfest.jpg"
@@ -80,7 +81,7 @@ params:
         url: "#"
     logos:
       - identifier: a
-        image: "images/global/sample-logo.svg"
+        image: "images/global/WTS Logo Sample.svg"
         alt: "a"
       - identifier: b
       - identifier: c
@@ -99,89 +100,138 @@ params:
     label: "Email address"
     placeholder: "Enter your email"
     button: "Notify me"
+  p6:
+    heading: "What is WTS?"
+    content:
+      - text: "Women In Tech Security (WTS) is an initiative aimed at building cybersecurity awareness and increasing community involvement, especially among women. We were founded as a community organization by young cybersecurity professionals with the goal of making an impact in cyberspace. \nThe name Women In Tech Security reflects our commitment to encompassing various aspects of technology that involve security. We aim to promote the importance of cybersecurity to the broader tech community, adapting to technological developments across different sectors. \nOur name highlights the crucial role of women in all aspects of technology and security. Importantly, our organization is not limited to women; we welcome and include everyone, regardless of background or gender, who shares our vision. Through this name, we hope to inspire more women and other tech professionals to engage and take an active role in the cybersecurity field."
+
+  p7:
+    heading: "Area of Topics"
+    content:
+      - text: "We cover a wide range of cybersecurity-related areas, including:"
+    lists:
+      - title: "Cyber Insecurity"
+        description: "Encompasses the various risks and vulnerabilities posed by online threats such as malware, hacking, phishing, scams, fraud, and disinformation. It highlights the challenges individuals and organizations face in protecting their digital assets and personal information from cyberattacks and data breaches."
+      - title: "Data Privacy, Protection, and Security"
+        description: "Involves ensuring the confidentiality, integrity, and availability of sensitive information. This includes implementing measures to prevent unauthorized access, use, and disclosure of data, as well as safeguarding individuals' privacy rights. It also includes addressing societal trends that unknowingly lead to data leaks."
+      - title: "Open Source Intelligence"
+        description: "Involves gathering and analyzing publicly available information from various sources to generate insights and intelligence. It plays a crucial role in cybersecurity by providing valuable data for detecting scams, fraud, or threat actors that have been affecting our society for a long time."
+      - title: "Cybersecurity Career"
+        description: "Offers diverse opportunities for individuals interested in protecting digital assets and combating cyber threats. Roles such as security analysts, ethical hackers, and cybersecurity consultants typically require acquiring relevant skills, certifications, and experience in tech and security area."
+
+  p8:
+    heading: "How Can WTS Help You Get Involved?"
+    content:
+      - text: "Our organization provides different ways to engage and grow in cybersecurity:"
+    lists:
+      - "Content & Storytelling"
+      - "Community & Networking"
+      - "Events & Collaboration"
+      - "Leadership & Empowerment"
+    footer: "We engage members with insightful content, foster strong networks, facilitate impactful events, and cultivate leadership opportunities."
 
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
+      url: 'examplesite.com'
     facebook:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      url: 'examplesite.com'
     instagram:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
+      url: 'https://www.instagram.com/womenintechsecurity_/'
     twitter:
       enabled: true
-      url: 'https://twitter.com/nusserstudios'
-    
+      url: 'examplesite.com'
+    email:
+      enabled: true
+      url: 'examplesite.com'
+    whatsapp:
+      enabled: true
+      url: 'https://whatsapp.com/channel/0029VagX2lM4yltUsD26RV41' 
+    linkedin:
+      enabled: true
+      url: 'examplesite.com'
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
+    # - identifier: prose
+    #   name: Prose
+    #   url: /prose/
+    #   weight: 10
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 20
+    # - identifier: categories
+    #   pre: dropdown
+    #   name: Categories
+    #   weight: 30
+    # - identifier: dropdown
+    #   pre: complexdropdown
+    #   name: Dropdown
+    #   weight: 40
+    - identifier: programs
+      name: Programs
+      url: /programs/
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
+    - identifier: events
+      name: Events
+      url: /events/
       weight: 40
+    - identifier: articles
+      name: Articles
+      url: /articles/
+      weight: 45
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-  dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
+  # categories:
+  #   - identifier: prose
+  #     name: Prose
+  #     url: /prose/
+  #     weight: 10
+  #   - identifier: about
+  #     name: About
+  #     url: /about/
+  #     weight: 20
+  # dropdown:
+  #   - identifier: appearance
+  #     pre: stars # can be stars, comments or piechart
+  #     name: Appearance
+  #     post: "Easy customization"
+  #     url: "#"
+  #     weight: 10
+  #   - identifier: comments
+  #     pre: comments # can be stars, comments or piechart
+  #     name: Comments
+  #     post: "Check your latest comments"
+  #     url: "#"
+  #     weight: 20
+  #   - identifier: analytics
+  #     pre: piechart # can be stars, comments or piechart
+  #     name: Analytics
+  #     post: "Take a look at your statistics"
+  #     url: "#"
+  #     weight: 30
   footer:
     - identifier: about
       name: About
       url: /about/
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
+    - identifier: programs
+      name: Programs
+      url: /programs/
       weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: events
+      name: Events
+      url: /events/
       weight: 40
+    - identifier: articles
+      name: Articles
+      url: /articles/
+      weight: 45
     - identifier: contact
       name: Contact
       url: /contact/

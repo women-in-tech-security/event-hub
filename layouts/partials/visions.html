@@ -1,0 +1,38 @@
+<section id="vision" class="relative bg-gradient-to-b from-purple-900 via-gray-900 to-black py-20">
+  <div class="max-w-screen-xl mx-auto px-6 lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+
+    <!-- Text Block -->
+    <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-xl">
+      <h2 class="text-4xl font-extrabold text-white mb-6">
+        {{ .Site.Params.p1.heading }}
+      </h2>
+
+      {{ range .Site.Params.p1.content }}
+        {{ with .text }}
+          <p class="mb-4 text-lg text-purple-200 leading-relaxed">{{ . }}</p>
+        {{ end }}
+        {{ with .lists }}
+          <ul class="list-disc list-inside space-y-2 text-purple-300">
+            {{ range . }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <!-- Image -->
+    <div class="mt-12 lg:mt-0">
+      {{ with .Site.Params.p1.image }}
+        {{ $img := resources.GetMatch . }}
+        {{ if $img }}
+          <img src="{{ $img.RelPermalink }}" alt="Vision"
+               class="w-full rounded-2xl shadow-2xl ring-4 ring-purple-600/40" />
+        {{ else }}
+          <img src="{{ . }}" alt="Vision"
+               class="w-full rounded-2xl shadow-2xl ring-4 ring-purple-600/40" />
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

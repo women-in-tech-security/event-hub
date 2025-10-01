@@ -13,9 +13,9 @@
     "tailwindcss": "^3.4.7"
   },
   "scripts": {
-    "start": "concurrently npm:watch:*",
+    "start": "concurrently -k \"npm:watch:tw\" \"npm:watch:hugo\"",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
-    "watch:hugo": "hugo server",
+    "watch:hugo": "hugo server --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313 --disableFastRender --watch --buildDrafts --buildFuture",
     "build": "hugo --minify",
     "test": "hugo"
   },

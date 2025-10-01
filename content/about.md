@@ -3,45 +3,95 @@ title: "About"
 date: 2021-12-18T11:10:36+08:00
 draft: false
 language: en
-description: About Us
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+description: About Women In Tech Security
+featured_image: ../assets/images/featured/about-wts.jpg
 ---
-# About Women in Tech Security (WTS)
 
-At **Women in Tech Security (WTS)**, we are dedicated to promoting diversity, awareness, and leadership in the field of cybersecurity. Our mission is to empower women to thrive in technology and security, while fostering a collaborative environment where everyone can contribute to a more secure digital world.
+# About Women In Tech Security (WTS)
 
-Founded by a group of passionate young professionals, WTS has grown into a vibrant community that actively engages in cybersecurity education, mentorship, and advocacy. We work to break down barriers for women in the industry by providing resources, training, and networking opportunities.
+**Information Security, including Cybersecurity, has become an urgent need as digital technology continues to advance. Threats to computer systems, networks, and data are becoming increasingly complicated for both individuals and businesses.**
 
-## Our Vision
-To build a world where everyone, regardless of gender or background, is fully aware of cybersecurity risks and empowered to take action in creating a safe digital environment.
+At **Women In Tech Security (WTS)**, we believe this challenge isn’t just about tools — it’s also about best practices, policies, education, and awareness. It's everyone's responsibility to create a safe and inclusive cyber world.
 
-## Our Mission
-Our mission at WTS is to:
-1. Educate individuals on digital threats and effective protection methods.
-2. Provide support, opportunities, and resources to help women build and grow their cybersecurity careers.
-3. Create a strong, supportive community for sharing knowledge, ideas, and experiences.
-4. Foster an inclusive space where everyone is welcomed to contribute to a safer digital world.
+## What is WTS?
 
-## What We Do
-Women in Tech Security focuses on:
-1. Through webinars, workshops, and online content, we provide vital cybersecurity knowledge to both beginners and professionals.
-2. Our community events, meetups, and social media presence aim to connect and support women in tech security.
-3. We offer career resources, mentorship programs, and networking opportunities to help women advance in the field.
-4. We are committed to fostering a diverse and inclusive environment, advocating for equal opportunities for all in the tech security industry.
+Women In Tech Security (WTS) is a community-driven initiative founded by young cybersecurity professionals with the goal of building cybersecurity awareness and increasing community involvement, especially among women.
+
+Our name reflects our commitment to encompassing various aspects of technology that involve security. We aim to promote the importance of cybersecurity across the broader tech community while adapting to technological developments in different sectors.
+
+While our name emphasizes the critical role of women in technology and security, WTS is open to all genders and backgrounds who share our vision. Through this name, we hope to inspire more women and other tech professionals to engage and take an active role in the cybersecurity field.
+
+---
+
+## Vision & Mission
+
+### Vision  
+A diverse and inclusive world where everyone is fully aware of and actively takes care of their cybersecurity.
+
+### Mission  
+We are committed to:
+- **Increasing Cybersecurity Awareness**: Educating the public about threats and effective protection strategies.
+- **Advancing Careers in Cybersecurity**: Providing support, opportunities, and resources for women and underrepresented groups.
+- **Building Collaborative Community Networks**: Creating a strong, supportive space for knowledge-sharing and professional growth.
+- **Encouraging Active Participation**: Fostering an inclusive environment where everyone can contribute to securing the digital world.
+
+---
+
+## Areas of Topic
+
+These are the core themes we focus on through events, campaigns, and educational initiatives:
+
+### 🛡️ Cyber Insecurity  
+Encompasses online threats like malware, phishing, scams, disinformation, and data breaches that individuals and organizations face daily.
+
+### 🔐 Data Privacy, Protection & Security  
+Ensuring confidentiality, integrity, and availability of sensitive information, while addressing societal trends leading to unintentional data leaks.
+
+### 🌐 Open Source Intelligence (OSINT)  
+Gathering publicly available data to generate insights, detect fraud, and identify threat actors impacting society.
+
+### 💼 Cybersecurity Career  
+Exploring roles such as analysts, ethical hackers, consultants, and pathways to enter the industry with the right skills, certifications, and experience.
+
+---
+
+## How Can WTS Help You Get Involved?
+
+WTS empowers individuals through:
+- **Content & Storytelling**: Inspiring stories, articles, and expert insights.
+- **Community & Networking**: Events, meetups, and collaboration spaces.
+- **Events & Collaboration**: Webinars, workshops, and live discussions.
+- **Leadership & Empowerment**: Volunteer programs and leadership development.
+
+Whether you're new to cybersecurity or looking to grow your expertise, WTS offers ways for everyone to get involved and make a difference.
+
+---
 
 ## Get Involved
-Women in Tech Security welcomes individuals from all backgrounds and levels of experience. Whether you're new to cybersecurity or an experienced professional, you can:
-- **Become a Volunteer**: Join us in organizing events, creating content, or mentoring others.
-- **Attend Our Events**: Participate in workshops, webinars, and conferences that provide hands-on experience and networking opportunities.
-- **Follow Us**: Stay connected through our social media channels for the latest news and event updates.
+
+Join us in shaping a safer digital future:
+
+### 🤝 Become Our Volunteer  
+We conduct annual volunteer recruitment drives and offer temporary positions during events. Volunteers help organize activities, create content, manage social media, and more.
+
+> _"Passionate about creating a safer digital world? Join our diverse and inclusive WTS volunteer team!"_
+
+### 📣 Attend Our Events  
+Participate in webinars, workshops, networking sessions, and awareness campaigns. Stay updated via our social channels.
 
 ## Our Values
-- **Empowerment**: We believe in empowering women to take leadership roles in cybersecurity.
-- **Collaboration**: We foster a community where everyone supports and learns from one another.
-- **Innovation**: We embrace the latest trends and advancements in cybersecurity to stay ahead of emerging threats.
-- **Inclusion**: We create an open space where people of all backgrounds can thrive in tech security.
+
+- **Empowerment**: We empower women to lead in cybersecurity.
+- **Collaboration**: We foster a culture of shared learning and mutual support.
+- **Innovation**: We embrace emerging technologies and trends.
+- **Inclusion**: We welcome everyone, regardless of gender, background, or experience level.
+
+---
 
 ## Contact Us
-For any inquiries, collaborations, or to learn more about how you can get involved with Women in Tech Security, reach out to us at:
-- **Email**: [Insert contact email]
-- **Social Media**: [Link to Instagram, LinkedIn, WhatsApp channel]
+
+For any inquiries, collaborations, or to learn more about how you can get involved with **Women In Tech Security**, reach out to us at:
+- **Email**: [Coming Soon]
+- **Instagram**: [@womenintechsecurity_](https://www.instagram.com/womenintechsecurity_/)   
+- **WhatsApp**: [Join our channel](https://whatsapp.com/channel/0029VagX2lM4yltUsD26RV41)
+- **Linkedin**: [Coming Soon]

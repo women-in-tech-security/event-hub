@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="bg-gradient-to-br from-black via-gray-950 to-purple-950 text-white py-16 px-6 md:px-12">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-10 text-center text-purple-400">Our Programs & Events</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {{ range .Pages }}
+      <div class="bg-gray-900/90 rounded-2xl p-6 shadow-lg hover:shadow-purple-500/50 hover:bg-gray-800/90 transition transform hover:-translate-y-1">
+        <h3 class="text-2xl font-semibold mb-3 text-purple-300">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        {{ if .Params.displayDate }}
+          <p class="text-sm text-gray-400 mb-2">{{ .Params.displayDate }}</p>
+        {{ else if .Date }}
+          {{ if ne (.Date.Format "2006") "0001" }}
+            <p class="text-sm text-gray-400 mb-2">{{ .Date | time.Format "Jan 2, 2006" }}</p>
+          {{ end }}
+        {{ end }}
+        <p class="text-gray-300 mb-4">{{ .Params.description | plainify | truncate 240 }}</p>
+        <a href="{{ .RelPermalink }}" class="text-purple-400 hover:underline">Read More →</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

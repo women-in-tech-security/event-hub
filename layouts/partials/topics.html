@@ -1,0 +1,29 @@
+<section id="topics" class="relative bg-gradient-to-b from-purple-950 via-gray-900 to-black py-20">
+  <div class="max-w-screen-xl mx-auto px-6">
+    <!-- Section Heading -->
+    <h2 class="text-4xl font-extrabold text-center text-white mb-6">
+      {{ .Site.Params.p7.heading }}
+    </h2>
+
+    <!-- Intro Text -->
+    {{ range .Site.Params.p7.content }}
+      <p class="text-center text-lg text-purple-200 mb-12 max-w-3xl mx-auto">{{ .text }}</p>
+    {{ end }}
+
+    <!-- Topic Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {{ range .Site.Params.p7.lists }}
+        <div class="bg-white/10 backdrop-blur-md border border-purple-500/40 
+                    rounded-2xl p-6 shadow-lg hover:shadow-purple-500/40 
+                    transition transform hover:-translate-y-2">
+          
+          <!-- Title -->
+          <h3 class="text-xl font-bold text-purple-300 mb-3">{{ .title }}</h3>
+          
+          <!-- Description -->
+          <p class="text-md text-purple-100 leading-relaxed">{{ .description }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

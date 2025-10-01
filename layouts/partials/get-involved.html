@@ -1,0 +1,23 @@
+<section id="get-involved" class="relative bg-gradient-to-b from-purple-900 via-black to-gray-900 text-gray-200 py-20">
+  <div class="max-w-screen-xl px-6 mx-auto text-center">
+    <h2 class="text-4xl font-extrabold text-purple-400 mb-6">
+      {{ .Site.Params.p8.heading }}
+    </h2>
+
+    {{ range .Site.Params.p8.content }}
+      <p class="max-w-3xl mx-auto text-lg leading-relaxed mb-6">{{ .text }}</p>
+    {{ end }}
+
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-6">
+      {{ range .Site.Params.p8.lists }}
+        <li class="bg-purple-900/30 rounded-xl p-6 shadow-lg hover:bg-purple-800/40 transition">
+          {{ . }}
+        </li>
+      {{ end }}
+    </ul>
+
+    <p class="max-w-2xl mx-auto text-gray-400 italic">
+      {{ .Site.Params.p8.footer }}
+    </p>
+  </div>
+</section>

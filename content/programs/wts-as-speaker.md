@@ -1,0 +1,8 @@
+---
+title: "WTS as Speaker at IWCS Mothers Day 2024 Event"
+# date: 
+description: "WTS collaborated with Indonesia Women in Cybersecurity (IWCS) to hold a seminar and workshop titled 'Empowered Women in the Digital Era: Building Safe and Smart Communities in Cyberspace' on December 19, 2024, at the Ministry of Agriculture. The event, held to commemorate Mother's Day and support women's empowerment in the digital world, featured WTS as a keynote speaker with two assistants. In total, we sent 5 members to participate. Aimed at South Jakarta PKK mothers, the program focused on digital safety, parental control practices, and digital ethics. Topics included online threats targeting women and families, practical cybersecurity tips, and strategies for creating secure digital communities, inspiring women to safeguard their families and promote digital literacy in their communities."
+draft: false
+---
+
+WTS collaborated with Indonesia Women in Cybersecurity (IWCS) to hold a seminar and workshop titled "Empowered Women in the Digital Era: Building Safe and Smart Communities in Cyberspace" on December 19, 2024, at the Ministry of Agriculture. The event, held to commemorate Mother's Day and support women's empowerment in the digital world, featured WTS as a keynote speaker with two assistants. In total, we sent 5 members to participate. Aimed at South Jakarta PKK mothers, the program focused on digital safety, parental control practices, and digital ethics. Topics included online threats targeting women and families, practical cybersecurity tips, and strategies for creating secure digital communities, inspiring women to safeguard their families and promote digital literacy in their communities.

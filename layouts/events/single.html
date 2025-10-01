@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="bg-black text-gray-200 py-20">
+  <div class="max-w-3xl mx-auto px-6">
+    <!-- image -->
+    {{ with .Params.image }}
+    <div class="mb-6 overflow-hidden rounded-xl">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="w-full object-cover" />
+    </div>
+    {{ end }}
+
+    <!-- title -->
+    <h1 class="text-4xl font-extrabold text-purple-400 mb-4">{{ .Title }}</h1>
+
+    <!-- date: displayDate preferred -->
+    {{ if .Params.displayDate }}
+      <p class="text-sm text-gray-400 mb-6">📅 {{ .Params.displayDate }}</p>
+    {{ else if ne (.Date.Format "2006") "0001" }}
+      <p class="text-sm text-gray-400 mb-6">📅 {{ .Date.Format "January 2, 2006" }}</p>
+    {{ end }}
+
+    <!-- content (NO prose) -->
+    <div class="rich-content text-gray-200 leading-relaxed space-y-6">
+      {{ .Content }}
+    </div>
+
+    <div class="mt-10">
+      <a href="/events/" class="inline-block text-sm text-purple-300 hover:underline">← Back to Events</a>
+    </div>
+  </div>
+</section>
+{{ end }}

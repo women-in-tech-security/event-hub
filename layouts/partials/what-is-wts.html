@@ -1,0 +1,10 @@
+<section id="what-is-wts" class="relative bg-gradient-to-b from-black via-black to-purple-950 text-gray-200 py-20">
+  <div class="max-w-screen-xl px-6 mx-auto text-center">
+    <h2 class="text-4xl font-extrabold text-purple-400 mb-6">
+      {{ .Site.Params.p6.heading }}
+    </h2>
+    {{ range .Site.Params.p6.content }}
+      <p class="max-w-3xl mx-auto text-lg leading-relaxed mb-6">{{ .text }}</p>
+    {{ end }}
+  </div>
+</section>

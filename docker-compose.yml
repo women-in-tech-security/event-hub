@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  hugo-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/resources
+    environment:
+      - HUGO_ENV=development
+    command: >
+      npm run start
+    stdin_open: true
+    tty: true
+
+  hugo-build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - HUGO_ENV=production
+    command: >
+      sh -c "
+        npm run watch:tw -- --watch=false &&
+        hugo --minify
+      "
+    profiles:
+      - build
+
+  # Alternative service for concurrent development (Tailwind + Hugo watching)
+  hugo-dev-concurrent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/resources
+    environment:
+      - HUGO_ENV=development
+    command: npm start
+    stdin_open: true
+    tty: true
+    profiles:
+      - concurrent

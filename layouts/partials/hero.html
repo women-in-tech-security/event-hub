@@ -1,0 +1,43 @@
+<div class="relative bg-gradient-to-b from-purple-900 via-gray-900 to-purple-900">
+  <div class="max-w-screen-xl px-4 py-16 mx-auto lg:grid lg:grid-cols-12 lg:gap-12">
+    
+    <!-- Text -->
+    <div class="col-span-6 text-left ml-2">
+      <h1 class="mb-4 text-5xl font-extrabold leading-tight text-white">
+        {{ .Site.Params.heroTitle }}
+      </h1>
+      <h2 class="mb-4 text-3xl font-light text-purple-200">
+        {{ .Site.Params.Moto }} <br> {{ .Site.Params.Moto2 }}
+      </h2>
+      <p class="max-w-xl mb-6 text-lg text-gray-300">
+        {{ .Site.Params.Description }}
+      </p>
+      <div class="flex gap-4">
+        <a href="#about" class="px-6 py-3 text-white bg-purple-600 rounded-lg shadow-lg hover:bg-purple-500 transition">
+          Get to Know
+        </a>
+        <a href="#programs" class="px-6 py-3 text-purple-600 bg-white rounded-lg shadow-lg hover:bg-gray-200 transition">
+          About Us
+        </a>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="col-span-6 mt-8 lg:mt-0">
+      {{ $hero := resources.GetMatch "images/pages/team-work-amico.svg" }}
+      {{ if $hero }}
+        {{ if eq $hero.MediaType.SubType "svg" }}
+          <img src="{{ $hero.RelPermalink }}" alt="Hero" class="w-full max-w-xl mx-auto" />
+        {{ else }}
+          {{ $thumb := ($hero.Fill "400x400 webp q90") }}
+          {{ $large := ($hero.Fill "576x576 webp q90") }}
+          <img srcset="{{ $thumb.RelPermalink }} 400w, {{ $large.RelPermalink }} 576w"
+              src="{{ $large.RelPermalink }}" width="100%" alt="Hero"
+              class="w-full max-w-xl mx-auto rounded-lg" />
+        {{ end }}
+      {{ else }}
+        <p class="text-red-400">⚠️ Hero image not found</p>
+      {{ end }}
+    </div>
+  </div>
+</div>
